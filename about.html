@@ -16,35 +16,93 @@
 
 </head>
 <body>
-  <!-- Header -->
-  <header class="header" id="header">
-    <div class="container">
-      <a href="index.html" class="logo">
-        <img src="img/icons/logo.svg" alt="">
-      </a>
-      <nav class="menu header-menu">
-        <ul class="menu-list">
-          <li><a href="about.html" class="menu-list-link text-medium1">О продукте</a></li>
-          <li><a href="owner.html" class="menu-list-link text-medium1">Об основателе</a></li>
-          <li><a href="news.html" class="menu-list-link text-medium1">Новости</a></li>
-          <li><a href="academy.html" class="menu-list-link text-medium1">Бизнес академия</a></li>
-          <li><a href="start-business.html" class="menu-list-link text-medium1">Начать бизнес</a></li>
-          <li><a href="#" class="menu-list-link text-medium1">Цели</a></li>
-        </ul>
-        <button class="btn-login-adap btn1">
+    <!-- Header -->
+    <header class="header" id="header">
+      <div class="container">
+        <a href="index.html" class="logo">
+          <img src="img/icons/logo.svg" alt="">
+        </a>
+        <nav class="menu header-menu">
+          <ul class="menu-list navbar-nav">
+            <li class="header-dropdown nav-item dropdown">
+              <a class="menu-list-link nav-link" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                О компании
+              </a>
+              <ul class="dropdown-menu dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
+                <li><a class="header-drp-item dropdown-item" href="company.html">История</a></li>
+                <li><a class="header-drp-item dropdown-item" href="document.html">Документы</a></li>
+                <li><a class="header-drp-item dropdown-item" href="contacts.html">Контакты</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="menu-list-link nav-link" href="news.html">
+                Новости
+              </a>
+              <!-- <ul class="dropdown-menu dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
+                <li><a class="header-drp-item dropdown-item" href="#">Action</a></li>
+                <li><a class="header-drp-item dropdown-item" href="#">Another action</a></li>
+                <li><a class="header-drp-item dropdown-item" href="#">Something else here</a></li>
+              </ul> -->
+            </li>
+            <li class="nav-item dropdown">
+              <a class="menu-list-link nav-link" href="#" id="navbarDarkDropdownMenuLink2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Бизнес
+              </a>
+              <ul class="dropdown-menu dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
+                <li><a class="header-drp-item dropdown-item" href="market-plan.html">Маркетинг-план</a></li>
+                <li><a class="header-drp-item dropdown-item" href="benefits.html">Преимущества</a></li>
+                <li><a class="header-drp-item dropdown-item" href="promotion.html">Промоушен</a></li>
+                <li><a class="header-drp-item dropdown-item" href="rules.html">Правила поведения</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="menu-list-link nav-link" href="products.html">
+                Продукция
+              </a>
+              <!-- <ul class="dropdown-menu dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
+                <li><a class="header-drp-item dropdown-item" href="#">Action</a></li>
+                <li><a class="header-drp-item dropdown-item" href="#">Another action</a></li>
+                <li><a class="header-drp-item dropdown-item" href="#">Something else here</a></li>
+              </ul> -->
+            </li>
+            <li class="nav-item dropdown">
+              <a class="menu-list-link nav-link" href="#">
+                Интернет-магазин
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="menu-list-link nav-link" href="contacts.html">
+                Контакты
+              </a>
+              <!-- <ul class="dropdown-menu dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
+                <li><a class="header-drp-item dropdown-item" href="#">Action</a></li>
+                <li><a class="header-drp-item dropdown-item" href="#">Another action</a></li>
+                <li><a class="header-drp-item dropdown-item" href="#">Something else here</a></li>
+              </ul> -->
+            </li>
+          </ul>
+          <!-- <ul class="menu-list" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <li><a href="about.html" class="menu-list-link text-medium1">О продrewqукте</a></li>
+            <li><a href="owner.html" class="menu-list-link text-medium1">Об основателе</a></li>
+            <li><a href="news.html" class="menu-list-link text-medium1">Новости</a></li>
+            <li><a href="academy.html" class="menu-list-link text-medium1">Бизнес академия</a></li>
+            <li><a href="start-business.html" class="menu-list-link text-medium1">Начать бизнес</a></li>
+            <li><a href="#" class="menu-list-link text-medium1">Цели</a></li>
+          </ul> -->
+          <button class="btn-login-adap btn1">
+            Войти
+            <img src="img/icons/ic-login.svg" alt="">
+          </button>
+        </nav>
+        <button class="btn-login btn1">
           Войти
           <img src="img/icons/ic-login.svg" alt="">
         </button>
-      </nav>
-      <button class="btn-login btn1">
-        Войти
-        <img src="img/icons/ic-login.svg" alt="">
-      </button>
-      <div class="header-burger">
-        <span></span>
+        <div class="header-burger">
+          <span></span>
+        </div>
       </div>
-    </div>
-  </header>
+    </header>
 
   <section class="page about" id="page-about">
     <div class="container">
